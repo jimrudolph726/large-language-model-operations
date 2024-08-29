@@ -18,7 +18,7 @@ from moviepy.editor import VideoFileClip
 import openai
 from openai import OpenAI
 
-os.environ["OPENAI_API_KEY"] = "sk-proj-Fs2QEYX4U4G8rBTTeujhT3BlbkFJFFlX5o0egM0DWVVLKPSV"
+os.environ["OPENAI_API_KEY"] = ""
 openai.api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI()
 
